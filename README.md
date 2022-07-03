@@ -1,5 +1,5 @@
-<div style="text-align:center;">
-    <h1>daren-discord-bot</h1>
+<div align="center">  
+    <h1>Daren Discord Bot</h1>  
 </div>
 
 ---
