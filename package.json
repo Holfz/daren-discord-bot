@@ -1,0 +1,26 @@
+{
+	"name": "daren-discord-bot",
+	"description": "Daren Discord Bot: Forked from Project Friends Discord Bot",
+	"repository": "https://github.com/Holfz/daren-discord-bot",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "node dist/index",
+		"compile": "rimraf dist && npm install --quiet && tsc && devScript --copyOnly",
+		"dev": "devScript"
+	},
+	"license": "",
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"discord.js": "^12.2.0",
+		"dotenv": "^8.2.0",
+		"lodash": "^4.17.19",
+		"node-cron": "^3.0.1",
+		"source-map-support": "^0.5.19",
+		"uuid": "^8.3.2"
+	},
+	"devDependencies": {
+		"@types/node": "^14.0.27",
+		"rimraf": "^3.0.2",
+		"ts-devscript": "^1.0.8"
+	}
+}

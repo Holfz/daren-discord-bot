@@ -1,0 +1,10 @@
+node_modules
+dist
+
+src/package.json
+
+.idea
+.vscode
+.env
+
+*.js
