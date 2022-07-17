@@ -42,7 +42,8 @@ async function processCron() {
                 role.id === roles.slave.id ||
                 role.id === roles.admin.id ||
                 role.id === roles.vvip.id ||
-                role.id === roles.moderator.id
+                role.id === roles.moderator.id ||
+                role.id === roles.streamer.id
             )
         ) {
             continue;
